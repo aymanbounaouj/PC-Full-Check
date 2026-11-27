@@ -35,7 +35,7 @@ $ErrorActionPreference = 'Stop'
 
 $RepositoryOwner = 'aymanbouanouj'
 $RepositoryName = 'PC-Full-Check'
-$RepositoryUrl = 'https://github.com/aymanbouanouj/PC-Full-Check'
+$RepositoryUrl = 'https://github.com/aymanbounaouj/PC-Full-Check'
 $RunnerDirectoryName = 'PC-Full-Check-Runner'
 
 # Deliberately approved source snapshot. Update this lock only after reviewing
