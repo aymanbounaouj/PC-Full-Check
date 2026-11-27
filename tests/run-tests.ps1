@@ -604,7 +604,7 @@ Test-Case 'CITATION.cff cites the issued v0.2.1-beta Zenodo version DOI' {
         $citation -match '(?m)^type: software\s*$' -and
         $citation -match '(?m)^authors:\r?\n  - family-names: "Bounaouj"\r?\n    given-names: "Ayman"\r?\n    orcid: "https://orcid\.org/0009-0001-6071-9418"\s*$' -and
         $citation -match '(?m)^doi: "10\.5281/zenodo\.23839790"\s*$' -and
-        $citation -match '(?m)^repository-code: "https://github\.com/aymanbouanouj/PC-Full-Check"\s*$' -and
+        $citation -match '(?m)^repository-code: "https://github\.com/aymanbounaouj/PC-Full-Check"\s*$' -and
         $citation -match '(?m)^license: MIT\s*$' -and
         $citation -match '(?m)^date-released: 2026-10-31\s*$' -and
         $citation -notmatch '(?im)^\s*(?:email|url):'
